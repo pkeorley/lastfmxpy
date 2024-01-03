@@ -1,14 +1,14 @@
-# Last FM API (lf-api)
+# Last FM API (lastfmxpy)
 
 ![Static Badge](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![GitHub License](https://img.shields.io/github/license/pkeorley/telegram-tui)
 ![GitHub issues](https://img.shields.io/github/issues/pkeorley/telegram-tui)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/pkeorley/lf-api)
-![GitHub contributors](https://img.shields.io/github/contributors/pkeorley/lf-api)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/pkeorley/lastfmxpy)
+![GitHub contributors](https://img.shields.io/github/contributors/pkeorley/lastfmxpy)
 
 -----
 
-* **lf-api** *(Last FM Api)* - is a mono-repository that has a user-friendly interface for interacting with the largest music service [last.fm](https://www.last.fm). This library implements all the standard methods available on [this page](https://www.last.fm/api).
+* **lastfmxpy** *(Last FM Api)* - is a mono-repository that has a user-friendly interface for interacting with the largest music service [last.fm](https://www.last.fm). This library implements all the standard methods available on [this page](https://www.last.fm/api).
 
 **Table of contents**
 - [Project goals](#project-goals)
@@ -29,7 +29,7 @@
 
 **Installation**: To install this library, you need to enter the following command
 ```shell
-pip install -U lf-api
+pip install -U lastfmxpy
 ```
 **Usage**: 
 
@@ -179,4 +179,4 @@ from lastfm_api.params import (
 
 ## License
 
-`lf-api` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`lastfmxpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
