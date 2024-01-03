@@ -4,7 +4,7 @@
 # file in the root directory of this source tree.
 
 from params.base_classes import BaseChartParams
-from utils import Utils
+from lastfmxpy.utils import Utils
 
 
 class GetTopArtists(BaseChartParams):

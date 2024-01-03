@@ -4,12 +4,12 @@
 # file in the root directory of this source tree.
 
 from params.base_classes import BaseUserParams
-from typings import (
+from lastfmxpy.typings import (
     TaggingType,
     Extended,
     Period
 )
-from utils import Utils
+from lastfmxpy.utils import Utils
 
 
 class GetFriends(BaseUserParams):

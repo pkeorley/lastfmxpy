@@ -5,8 +5,8 @@
 
 from exeptions import LFPPanic
 from params.base_classes import BaseTrackParams
-from typings import Autocorrect
-from utils import Utils
+from lastfmxpy.typings import Autocorrect
+from lastfmxpy.utils import Utils
 
 
 class AddTags(BaseTrackParams):

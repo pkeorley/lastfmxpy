@@ -8,8 +8,8 @@ from typing import Literal
 import config
 from exeptions import LFPPanic
 from params.base_classes import BaseArtistParams
-from typings import Autocorrect
-from utils import Utils
+from lastfmxpy.typings import Autocorrect
+from lastfmxpy.utils import Utils
 
 
 class AddTags(BaseArtistParams):

@@ -4,7 +4,7 @@
 # file in the root directory of this source tree.
 
 from params.base_classes import BaseTagParams
-from utils import Utils
+from lastfmxpy.utils import Utils
 
 
 class GetInfo(BaseTagParams):

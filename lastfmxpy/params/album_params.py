@@ -6,8 +6,8 @@
 import config
 from exeptions import LFPPanic
 from params.base_classes import BaseAlbumParams
-from typings import Autocorrect
-from utils import Utils
+from lastfmxpy.typings import Autocorrect
+from lastfmxpy.utils import Utils
 
 
 class AddTags(BaseAlbumParams):
