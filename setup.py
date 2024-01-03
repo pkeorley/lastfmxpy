@@ -10,10 +10,10 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='lastfm-api',
+    name='lf-api',
     version='1.0.0',
     packages=find_packages(exclude=['.venv']),
-    url='https://github.com/pkeorley/lastfm-api',
+    url='https://github.com/pkeorley/lf-api',
     license='MIT',
     licence_files=['LICENSE'],
     author='pkeorley',
