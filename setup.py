@@ -11,7 +11,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='lastfmxpy',
-    version='1.0.0',
+    version='1.0.1',
     packages=find_packages(exclude=['.venv']),
     url='https://github.com/pkeorley/lastfmxpy',
     license='MIT',
