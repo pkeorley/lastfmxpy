@@ -8,7 +8,7 @@ import methods
 import params
 
 __doc__ = "A tool that helps to work effectively with the API from last.fm"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __all__ = [
     "api",
     "params",
