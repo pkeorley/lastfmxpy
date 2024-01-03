@@ -74,7 +74,7 @@ data: str = json.dumps(
 print(data)
 ```
 
-**All available methods ([./methods/\_\_init\_\_.py](/methods/__init__.py))**
+**All available methods ([./methods/\_\_init\_\_.py](/lastfmxpy/methods/__init__.py))**
 ```python
 from lastfmxpy.methods import (
     Album,
@@ -89,7 +89,7 @@ from lastfmxpy.methods import (
 )
 ```
 
-**All available parameters ([./params/\_\_init\_\_.py](/params/__init__.py)):**
+**All available parameters ([./params/\_\_init\_\_.py](/lastfmxpy/params/__init__.py)):**
 
 ```python
 from lastfmxpy.params import (
