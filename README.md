@@ -29,7 +29,7 @@
 
 **Installation**: To install this library, you need to enter the following command
 ```shell
-pip install https://github.com/pkeorley/lastfm-api.git
+pip install -U lastfm-api
 ```
 **Usage**: 
 
@@ -89,7 +89,7 @@ from lastfm_api.methods import (
 )
 ```
 
-**All parameters parameters ([./params/\_\_init\_\_.py](/params/__init__.py)):**
+**All available parameters ([./params/\_\_init\_\_.py](/params/__init__.py)):**
 
 ```python
 from lastfm_api.params import (
