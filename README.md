@@ -36,7 +36,7 @@ pip install -U lastfmxpy
 ```python
 import json
 
-from lastfm_api import (
+from lastfmxpy import (
     api,
     methods,
     params,
@@ -76,7 +76,7 @@ print(data)
 
 **All available methods ([./methods/\_\_init\_\_.py](/methods/__init__.py))**
 ```python
-from lastfm_api.methods import (
+from lastfmxpy.methods import (
     Album,
     Artist,
     Auth,
@@ -92,7 +92,7 @@ from lastfm_api.methods import (
 **All available parameters ([./params/\_\_init\_\_.py](/params/__init__.py)):**
 
 ```python
-from lastfm_api.params import (
+from lastfmxpy.params import (
     AlbumAddTags,
     AlbumGetInfo,
     AlbumGetTags,
@@ -101,7 +101,7 @@ from lastfm_api.params import (
     AlbumSearch
 )
 
-from lastfm_api.params import (
+from lastfmxpy.params import (
     AlbumAddTags,
     AlbumGetInfo,
     AlbumGetTags,
@@ -109,7 +109,7 @@ from lastfm_api.params import (
     AlbumRemoveTag,
     AlbumSearch
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     ArtistAddTags,
     ArtistGetCorrection,
     ArtistGetInfo,
@@ -121,24 +121,24 @@ from lastfm_api.params import (
     ArtistRemoveTag,
     ArtistSearch
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     AuthGetMobileSession,  # deprecated as last.fm
     AuthGetSession,
     AuthGetToken
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     ChartGetTopArtists,
     ChartGetTopTags,
     ChartGetTopTracks
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     GeoGetTopArtists,
     GeoGetTopTracks
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     LibraryGetArtists
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     TagGetInfo,
     TagGetSimilar,
     TagGetTopAlbums,
@@ -146,7 +146,7 @@ from lastfm_api.params import (
     TagGetTopTracks,
     TagGetWeeklyChartList
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     TrackAddTags,
     TrackGetCorrection,
     TrackGetInfo,
@@ -160,7 +160,7 @@ from lastfm_api.params import (
     TrackUnlove,
     TrackUpdateNowPlaying
 )
-from lastfm_api.params import (
+from lastfmxpy.params import (
     UserGetFriends,
     UserGetInfo,
     UserGetLovedTracks,
