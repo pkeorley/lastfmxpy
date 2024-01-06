@@ -5,7 +5,7 @@
 
 import requests
 
-from methods import (
+from .methods import (
     Album,
     Artist,
     Auth,
@@ -16,7 +16,7 @@ from methods import (
     Track,
     User
 )
-from params.base_classes import (
+from .params.base_classes import (
     BaseAlbumParams,
     BaseArtistParams,
     BaseAuthParams,
@@ -27,7 +27,7 @@ from params.base_classes import (
     BaseTrackParams,
     BaseUserParams
 )
-from utils import Utils
+from .utils import Utils
 
 
 class LastFMApi:
