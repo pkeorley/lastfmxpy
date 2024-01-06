@@ -29,6 +29,7 @@
 - [x] Provide a convenient interface for sending requests to the server
 - [x] Add doc-strings to each method or class
 - [x] Add asynchronous support
+- [ ] Add tests
 - [ ] Add support for documentation in different languages
 
 ## Documentation
