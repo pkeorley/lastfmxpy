@@ -10,9 +10,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name='lastfmxpy',
-    version='1.0.2',
+    version='1.2.0',
     python_requires='>=3.10',
-    install_requires=['requests>=2.31.0'],
+    install_requires=['requests>=2.31.0', 'aiohttp~=3.8.4'],
     packages=find_packages(exclude=['.venv']),
     url='https://github.com/pkeorley/lastfmxpy',
     license='MIT',
