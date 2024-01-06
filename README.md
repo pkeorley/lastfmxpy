@@ -1,10 +1,11 @@
 # Last FM API (lastfmxpy)
 
-![Static Badge](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![GitHub License](https://img.shields.io/github/license/pkeorley/telegram-tui)
 ![GitHub issues](https://img.shields.io/github/issues/pkeorley/telegram-tui)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/pkeorley/lastfmxpy)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/pkeorley/lastfmxpy)
 ![GitHub contributors](https://img.shields.io/github/contributors/pkeorley/lastfmxpy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lastfmxpy.svg)](https://pypi.org/project/lastfmxpy)
+[![PyPI - Version](https://img.shields.io/pypi/v/lastfmxpy.svg)](https://pypi.org/project/lastfmxpy)
 
 -----
 
