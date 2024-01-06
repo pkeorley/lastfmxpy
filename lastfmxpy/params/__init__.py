@@ -3,7 +3,7 @@
 # This source code is licensed under the MIT license found in the LICENSE
 # file in the root directory of this source tree.
 
-from .album_params import (
+from lastfmxpy.params.album_params import (
     AddTags as AlbumAddTags,
     GetInfo as AlbumGetInfo,
     GetTags as AlbumGetTags,
@@ -11,7 +11,7 @@ from .album_params import (
     RemoveTag as AlbumRemoveTag,
     Search as AlbumSearch
 )
-from .artist_params import (
+from lastfmxpy.params.artist_params import (
     AddTags as ArtistAddTags,
     GetCorrection as ArtistGetCorrection,
     GetInfo as ArtistGetInfo,
@@ -23,24 +23,24 @@ from .artist_params import (
     RemoveTag as ArtistRemoveTag,
     Search as ArtistSearch
 )
-from .auth_params import (
+from lastfmxpy.params.auth_params import (
     GetMobileSession as AuthGetMobileSession,  # deprecated as last.fm
     GetSession as AuthGetSession,
     GetToken as AuthGetToken
 )
-from .chart_params import (
+from lastfmxpy.params.chart_params import (
     GetTopArtists as ChartGetTopArtists,
     GetTopTags as ChartGetTopTags,
     GetTopTracks as ChartGetTopTracks
 )
-from .geo_params import (
+from lastfmxpy.params.geo_params import (
     GetTopArtists as GeoGetTopArtists,
     GetTopTracks as GeoGetTopTracks
 )
-from .library_params import (
+from lastfmxpy.params.library_params import (
     GetArtists as LibraryGetArtists
 )
-from .tag_params import (
+from lastfmxpy.params.tag_params import (
     GetInfo as TagGetInfo,
     GetSimilar as TagGetSimilar,
     GetTopAlbums as TagGetTopAlbums,
@@ -48,7 +48,7 @@ from .tag_params import (
     GetTopTracks as TagGetTopTracks,
     GetWeeklyChartList as TagGetWeeklyChartList
 )
-from .track_params import (
+from lastfmxpy.params.track_params import (
     AddTags as TrackAddTags,
     GetCorrection as TrackGetCorrection,
     GetInfo as TrackGetInfo,
@@ -62,7 +62,7 @@ from .track_params import (
     Unlove as TrackUnlove,
     UpdateNowPlaying as TrackUpdateNowPlaying
 )
-from .user_params import (
+from lastfmxpy.params.user_params import (
     GetFriends as UserGetFriends,
     GetInfo as UserGetInfo,
     GetLovedTracks as UserGetLovedTracks,

@@ -5,9 +5,9 @@
 
 from typing import Literal
 
-import config
-from exeptions import LFPPanic
-from params.base_classes import BaseArtistParams
+import lastfmxpy.config as config
+from lastfmxpy.exeptions import LFPPanic
+from lastfmxpy.params.base_classes import BaseArtistParams
 from lastfmxpy.typings import Autocorrect
 from lastfmxpy.utils import Utils
 

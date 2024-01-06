@@ -3,7 +3,7 @@
 # This source code is licensed under the MIT license found in the LICENSE
 # file in the root directory of this source tree.
 
-from params.base_classes import BaseUserParams
+from lastfmxpy.params.base_classes import BaseUserParams
 from lastfmxpy.typings import (
     TaggingType,
     Extended,

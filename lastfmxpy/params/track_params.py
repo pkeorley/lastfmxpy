@@ -3,8 +3,8 @@
 # This source code is licensed under the MIT license found in the LICENSE
 # file in the root directory of this source tree.
 
-from exeptions import LFPPanic
-from params.base_classes import BaseTrackParams
+from lastfmxpy.exeptions import LFPPanic
+from lastfmxpy.params.base_classes import BaseTrackParams
 from lastfmxpy.typings import Autocorrect
 from lastfmxpy.utils import Utils
 
