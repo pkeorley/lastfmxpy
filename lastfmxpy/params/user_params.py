@@ -4,7 +4,7 @@
 # file in the root directory of this source tree.
 
 from lastfmxpy.params.base_classes import BaseUserParams
-from lastfmxpy.typings import (
+from lastfmxpy.literals import (
     TaggingType,
     Extended,
     Period
