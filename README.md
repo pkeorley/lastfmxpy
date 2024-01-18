@@ -17,11 +17,8 @@
 - - [Installation](#installation)
 - - [Synchronous usage](#example-of-synchronous-usage)
 - - [Asynchronous usage](#example-of-asynchronous-usage)
-- - [All available methods](#all-available-methods-methods__init__py)
-- - [All available params](#all-available-parameters-params__init__py)
-- [Implemented functionalities](#implemented-functionalities)
-- - [The ./methods directory](#the-methods-directory)
-- - [The ./params directory](#the-params-directory)
+- - [All available methods](#all-available-methods)
+- - [All available parameters](#all-available-parameters)
 - [Licence](#license)
 
 ## Project goals
