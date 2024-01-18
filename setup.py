@@ -10,7 +10,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name='lastfmxpy',
-    version='1.2.0',
+    version='1.2.1',
     python_requires='>=3.10',
     install_requires=['requests>=2.31.0', 'aiohttp~=3.8.4'],
     packages=find_packages(exclude=['.venv']),
