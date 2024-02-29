@@ -46,13 +46,14 @@ class GetSession(BaseAuthParams):
     def __init__(
             self,
             token: str,
+            api_sig: str,
             api_key: str = None,
-            api_sig: str = None
     ):
         """
         Fetch a session key for a user. The third step in the authentication process. See the authentication how-to for more information.
+
         :param token: A 32-character ASCII hexadecimal MD5 hash returned by step 1 of the authentication process (following the granting of permissions to the application by the user)
-        :param api_key:A Last.fm API key.
+        :param api_key: A Last.fm API key.
         :param api_sig: A Last.fm method signature. See authentication (https://www.last.fm/api/authentication) for more information.
         """
         super().__init__()
@@ -72,7 +73,7 @@ class GetSession(BaseAuthParams):
 class GetToken(BaseAuthParams):
     def __init__(
             self,
-            api_key: str,
+            api_key: str = None,
             api_sig: str = None
     ):
         """
