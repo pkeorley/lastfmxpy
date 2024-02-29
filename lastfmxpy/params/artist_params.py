@@ -7,8 +7,8 @@ from typing import Literal
 
 import lastfmxpy.config as config
 from lastfmxpy.exeptions import LFPPanic
-from lastfmxpy.params.base_classes import BaseArtistParams
 from lastfmxpy.literals import Autocorrect
+from lastfmxpy.params.base_classes import BaseArtistParams
 from lastfmxpy.utils import Utils
 
 
