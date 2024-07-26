@@ -22,12 +22,7 @@
 - [Licence](#license)
 
 ## Project goals
-- [x] Implement all existing methods in the [Last FM API Docs](https://www.last.fm/api)
-- [x] Provide a convenient interface for sending requests to the server
-- [x] Add doc-strings to each method or class
-- [x] Add asynchronous support
-- [ ] Add tests
-- [ ] Add support for documentation in different languages
+- [ ] Release `v2.0.0`
 
 ## Documentation
 This documentation provides examples of how to use the **synchronous** and **asynchronous** classes and methods,
